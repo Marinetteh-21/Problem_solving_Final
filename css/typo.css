@@ -19,3 +19,22 @@ p.description{
   color: white ;
 
 }
+
+p.fiche-personnage{
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 14px;
+  text-align: center;
+  color: white ;
+
+}
+
+h1{
+  font-family: active, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 45px;
+  color: #6a2e2d ;
+
+}
