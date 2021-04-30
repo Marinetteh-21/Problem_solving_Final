@@ -1,9 +1,40 @@
 @import url("https://use.typekit.net/ldl6glq.css");
+@import url("https://use.typekit.net/rou4nud.css");
 
-.h1{
-  font: Active ;
+h2{
+font-family: active, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+color: #6a2e2d ;
 }
 
-.h2{
+
+p.description{
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 14px;
+  text-align: center;
+  color: white ;
+
+}
+
+p.fiche-personnage{
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 14px;
+  text-align: center;
+  color: white ;
+
+}
+
+h1{
+  font-family: active, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 45px;
+  color: #6a2e2d ;
 
 }
