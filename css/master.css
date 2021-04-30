@@ -1,11 +1,207 @@
+header{
+  height: 85px;
+  display:flex;
+  justify-content:space-between;
+  margin-top:3vh;
+  margin-right: 5vh;
+  margin-left: 5vh;
+}
+
+img.button{
+  height: 60px;
+  width: 60px;
+}
+
+img.logo{
+  height: 90px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+div.buttons{
+ display: flex;
+}
+
+.button{
+  width:5vw;
+align= right ;
+}
+
+
+
+.background_choix {
+  background: url('images/fond_choix.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.background {
+  background: url('images/nuages.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#background_parametre {
+  background: url('images/nuages.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#background_accueil{
+  background:url('images/fond_accueil.jpg'); no-repeat top center;
+  background-size: cover;
+  justify-content: space-between;
+  max-height: 100%;
+  z-index: 1 ;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.body-page3{
+  background:url('images/fond.jpg'); no-repeat top center;
+  background-size: cover;
+  justify-content: space-between;
+  min-height: 90vh;
+  z-index: 1 ;
+  justify-content: space-between;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+
+#titre{
+  background-size: cover;
+  justify-content: space-between;
+  margin-top: 6vh;
+  min-height: 10vh;
+}
+
+#start{
+  justify-content: center;
+  display:flex;
+  margin-top:1vh;
+  position: absolute;
+}
+
+
+
+
+
+.fleurs{
+  display: flex;
+  justify-content: center;
+}
+
+#lys{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#orchidee{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#rose{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#titre_parametre {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.texte_parametre{
+
+}
+
+
+img.commencer{
+  margin-top: 55em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+img.commencer:hover {
+  opacity: 0.7 ;
+}
+
+a.next{
+  justify-content: center;
+  display:flex;
+  margin-top:1vh;
+}
+
+img.next{
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.next:hover {
+  opacity: 0.7 ;
+}
+
+
+
+
 ul{
   list-style-type: none;
+  display:flex;
+
 }
+
+li{
+  flex-basis: 320px;
+  display: flex;
+  flex-direction: column;
+  margin:1vw;
+}
+
+
+
+
+li.presentation{
+  flex-basis: 20px;
+
+}
+
+.img_presentation {
+  width: 10em;
+  flex-basis: 20px;
+  padding: 5px;
+}
+
+.blason{
+  width: 20px;
+  justify-content: center;
+  flex-basis: 50px;
+  display: flex;
+}
+
+p.fiche_personnage{
+
+}
+
 
 
 img.etat{
   width: 100px ;
 }
+
+
 
 img.img_defaite{
 width: 35em;
@@ -22,37 +218,28 @@ margin-left: auto;
 margin-right: auto;
 }
 
+
 h2{
   position: absolute;
   right: 200px;
   top: 85px;
 }
 
-.background_choix {
-  background: url('images/fond_choix.jpg'); no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
-.background {
-  background: url('images/nuages.jpg'); no-repeat top center;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .page_entière{
   justify-content: space-between;
   width: 100%
   height: 100%
   z-index: 1 ;
-  justify-content: space-between;
 }
-
 
 .rive_gauche{
 display: flex;
 align-items: flex-end;
   }
+
+
 
 #alessandra_position1{
   position: absolute;
@@ -96,9 +283,6 @@ align-items: flex-end;
   top: 470px;
 }
 
-
-
-
 #alessandra_position2{
   position: absolute;
   z-index: 2 ;
@@ -141,48 +325,23 @@ align-items: flex-end;
   top: 480px;
 }
 
-.choix{
-align : right ;
-display: inline-block;
+.choix {
+display: flex;
+flex-wrap: wrap;
 justify-content: space-evenly;
 margin-top: 100px;
-text-align: center;
-
+max-width: 40vw;
 }
 
-.proposition1{
-
-  margin-right: 0px;
-  display: inline-block;
-  text-align: center;
-}
-
-.proposition2{
-
-  margin-right: 60px;
-  margin-left: 40px;
-display: inline-block;
-text-align: center;
-}
-
-.proposition3{
-
-  margin-top: 40px;
-  margin-right: 30px;
-  display: inline-block;
-  text-align: center;
-}
-
-.proposition4{
-
-  margin-right: 30px;
-  margin-left: 60px;
-  display: inline-block;
-  text-align: center;
+.proposition {
+flex-basis: 220px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 img.bulles{
-  width: 170px ;
+  max-width: 200px ;
 
 }
 
@@ -195,47 +354,11 @@ img.bulles{
 
 
 
-header{
-  height: 85px;
-  display:flex;
-  justify-content:space-between;
-  margin-top:3vh;
-  margin-right: 5vh;
-  margin-left: 5vh;
-}
-img.button{
-  height: 60px;
-  width: 60px;
-}
-img.logo{
-  height: 90px;
-  width: 80px;
-  margin-bottom: 10px;
-}
-
-div.buttons{
- display: flex;
-}
-.button{
-  width:5vw;
-align= right ;
-}
 
 article{
-  background-color: ##692929;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-ul{
-  display:flex;
-}
-
-li{
-  display: flex;
-  flex-direction: column;
-  margin:2vh;
 }
 
 
@@ -244,52 +367,6 @@ img.fond
   width: 70%;
 }
 
-a.footer
-{
-      justify-content: center;
-      display:flex;
-      margin-top:1vh;
-      position: absolute;
-}
-
-a.footer2
-{  justify-content: center;
-  display:flex;
-  margin-top:1vh;
-}
-
-img.next{
-  height: 80px;
-  margin-bottom: 10px;
-}
-img.next:hover {
-  opacity: 0.7 ;
-}
-
-
-li.li1 {
-
-  display: flex;
-   flex-direction: column;
-   margin:2vh;
-}
-li.li2 {
-  margin:0px;
-  margin-right:30px;
-  margin-left: 10px;
-}
-
-
-
-ul {
-  padding:0px;
-}
-
-#ul-carte {
-  width: 10em;
-  justify-content: center;
-
-}
 
 h1.fond
 {justify-content: center;
@@ -299,58 +376,9 @@ position: absolute;
 
 }
 
-
-
-
-
-
 img.reglement{
-  width: 35em;
+  width: 30em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-img.next{
-
-margin-left: auto;
-margin-right: auto;
-
-}
-
-img.bouton5{
-margin-top: 50em;
-margin-left: auto;
-margin-right: auto;
-}
-
-
-.body-page2{
-  background:url('images/fond_choix.jpg'); no-repeat top center;
-  background-size: cover;
-  justify-content: space-between;
-  min-height: 90vh;
-  z-index: 1 ;
-  justify-content: space-between;
-}
-
-
-.body-page3{
-  background:url('images/fond.jpg'); no-repeat top center;
-  background-size: cover;
-  justify-content: space-between;
-  min-height: 90vh;
-  z-index: 1 ;
-  justify-content: space-between;
-  background-attachment: fixed;
-}
-
-img.TITRE{
-  background-size: cover;
-  justify-content: space-between;
-  margin-top: 6vh;
-  min-height: 10vh;
-  justify-content: space-between;
-
-
 }
