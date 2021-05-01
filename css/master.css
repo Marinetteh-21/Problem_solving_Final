@@ -1,99 +1,384 @@
+header{
+  height: 85px;
+  display:flex;
+  justify-content:space-between;
+  margin-top:3vh;
+  margin-right: 5vh;
+  margin-left: 5vh;
+}
+
+img.button{
+  height: 60px;
+  width: 60px;
+}
+
+img.logo{
+  height: 90px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+div.buttons{
+ display: flex;
+}
+
+.button{
+  width:5vw;
+align= right ;
+}
+
+
+
+.background_choix {
+  background: url('images/fond_choix.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.background {
+  background: url('images/nuages.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#background_parametre {
+  background: url('images/nuages.jpg'); no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#background_accueil{
+  background:url('images/fond_accueil.jpg'); no-repeat top center;
+  background-size: cover;
+  justify-content: space-between;
+  max-height: 100%;
+  z-index: 1 ;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.body-page3{
+  background:url('images/fond.jpg'); no-repeat top center;
+  background-size: cover;
+  justify-content: space-between;
+  min-height: 90vh;
+  z-index: 1 ;
+  justify-content: space-between;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+
+#titre{
+  background-size: cover;
+  justify-content: space-between;
+  margin-top: 6vh;
+  min-height: 10vh;
+}
+
+#start{
+  justify-content: center;
+  display:flex;
+  margin-top:1vh;
+  position: absolute;
+}
+
+
+
+
+
+.fleurs{
+  display: flex;
+  justify-content: center;
+}
+
+#lys{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#orchidee{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#rose{
+  width: 9%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#titre_parametre {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.texte_parametre{
+
+}
+
+
+img.commencer{
+  margin-top: 55em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+img.commencer:hover {
+  opacity: 0.7 ;
+}
+
+a.next{
+  justify-content: center;
+  display:flex;
+  margin-top:1vh;
+}
+
+img.next{
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.next:hover {
+  opacity: 0.7 ;
+}
+
+
+
+
 ul{
   list-style-type: none;
+  display:flex;
+
 }
 
-img{
-  width: 90px ;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 80px;
-  margin-top: 0px;
+li{
+  flex-basis: 320px;
+  display: flex;
+  flex-direction: column;
+  margin:1vw;
 }
+
+
+
+
+li.presentation{
+  flex-basis: 20px;
+
+}
+
+.img_presentation {
+  width: 10em;
+  flex-basis: 20px;
+  padding: 5px;
+}
+
+.blason{
+  width: 20px;
+  justify-content: center;
+  flex-basis: 50px;
+  display: flex;
+}
+
+p.fiche_personnage{
+
+}
+
+
+
+img.etat{
+  width: 100px ;
+}
+
+
+
+img.img_defaite{
+width: 35em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+img.img_victoire{
+width: 35em;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+h2{
+  position: absolute;
+  right: 200px;
+  top: 85px;
+}
+
+
 
 .page_entière{
-  display: flex;
   justify-content: space-between;
+  width: 100%
+  height: 100%
+  z-index: 1 ;
 }
-
-.planete_etape {
-    background: url('images/testBG.jpg'); no-repeat top center;
-    background-size: cover;
-    flex-grow: 2;
-    display: flex;
-    justify-content: space-between;
-    min-height: 90vh;
-    z-index: 1 ;
-  }
 
 .rive_gauche{
 display: flex;
 align-items: flex-end;
   }
 
-#alessandra{
+
+
+#alessandra_position1{
   position: absolute;
   z-index: 2 ;
-  left: 280px ;
-  top: 290px;
+  left: 240px ;
+  top: 375px;
 }
 
-#elisabeth{
+#elisabeth_position1{
   position: absolute;
   z-index: 3 ;
-  left: 190px ;
-  top: 320px;
+  left: 140px ;
+  top: 410px;
 }
 
-#m-j{
+#m-j_position1{
   position: absolute;
   z-index: 5 ;
-  left: 230px ;
-  top: 400px;
+  left: 210px ;
+  top: 470px;
 }
 
-#lucius{
+#lucius_position1{
   position: absolute;
   z-index: 4 ;
-  left: 240px ;
-  top: 285px;
+  left: 200px ;
+  top: 370px;
 }
 
-#gaspard{
+#gaspard_position1{
   position: absolute;
   z-index: 6 ;
-  left: 150px ;
-  top: 320px;
+  left: 100px ;
+  top: 410px;
 }
 
-#leandre{
+#leandre_position1{
   position: absolute;
   z-index: 7 ;
-  left: 190px ;
+  left: 160px ;
+  top: 470px;
+}
+
+#alessandra_position2{
+  position: absolute;
+  z-index: 2 ;
+  left: 530px ;
   top: 400px;
 }
 
-.choix{
-align : right ;
-background: #ddeaea;
-flex-basis: 500px;
+#elisabeth_position2{
+  position: absolute;
+  z-index: 3 ;
+  left: 610px ;
+  top: 430px;
+}
+
+#m-j_position2{
+  position: absolute;
+  z-index: 5 ;
+  left: 490px ;
+  top: 480px;
+}
+
+#lucius_position2{
+  position: absolute;
+  z-index: 4 ;
+  left: 510px ;
+  top: 400px;
+}
+
+#gaspard_position2{
+  position: absolute;
+  z-index: 6 ;
+  left: 580px ;
+  top: 430px;
+}
+
+#leandre_position2{
+  position: absolute;
+  z-index: 7 ;
+  left: 520px ;
+  top: 480px;
+}
+
+.choix {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-margin-top: 0px;
+margin-top: 100px;
+max-width: 40vw;
 }
 
-.propositions{
-  margin-top: 150px ;
+.proposition {
+flex-basis: 220px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-.content-block {
-  border: 1px solid rgb(0, 0, 0);
-  background: rgb(176, 176, 176);
-  padding: 0.5em;
-  margin: 0.5em;
-  border-radius: 0.5em;
-  box-shadow: 10px 20px 61px -11px rgba(84, 75, 84, 0.67);
-  flex-basis: 320px;
-  flex-grow: 1;
+img.bulles{
+  max-width: 200px ;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img.fond
+{
+  width: 70%;
+}
+
+
+h1.fond
+{justify-content: center;
+display:flex;
+margin-top:1vh;
+position: absolute;
+
+}
+
+img.reglement{
+  width: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
