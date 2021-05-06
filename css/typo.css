@@ -58,3 +58,10 @@ h1{
   font-size: 25px;
   color: white ;
 }
+
+footer{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  color: #6a2e2d ;
+  margin: 180px 15px 15px 15px;
+}
