@@ -119,11 +119,44 @@ align= right ;
 #titre_parametre {
   text-align: center;
   margin-top: 120px;
+  margin-bottom: 55px;
 }
 
 .texte_parametre{
+text-align: center;
+  margin-top: 90px;
+}
+
+#ref1
+{
+    width: 18em;
+    margin-top: 150px;
+      margin-left: 200px;
 
 }
+
+#ref2
+{
+    width: 19em;
+
+
+}
+
+.rotation15 {
+   -webkit-transform: rotate(15deg);
+   -moz-transform: rotate(15deg);
+   -ms-transform: rotate(15deg);
+   -o-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+
+ .rotation45 {
+    -webkit-transform: rotate(160deg);
+    -moz-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+    -o-transform: rotate(160deg);
+    transform: rotate(160deg);
+  }
 
 
 img.commencer{
@@ -144,9 +177,10 @@ a.next{
 }
 
 img.next{
-  height: 80px;
-  margin-bottom: 10px;
-  margin-left: auto;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 140px;
+  margin-left: 550px;
   margin-right: auto;
 }
 
@@ -381,4 +415,15 @@ img.reglement{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ref1{
+  justify-content: center;
+}
+
+
+
+footer
+{text-align: left;
+
 }
