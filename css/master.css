@@ -37,14 +37,14 @@ align= right ;
 }
 
 .background {
-  background: url('images/nuages.jpg'); no-repeat top center;
+  background: url('images/fond_nuages.jpg'); no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
 }
 
 #background_parametre {
-  background: url('images/nuages.jpg'); no-repeat top center;
+  background: url('images/fond_nuages.jpg'); no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -58,18 +58,6 @@ align= right ;
   background-attachment: fixed;
   overflow: hidden;
 }
-
-.body-page3{
-  background:url('images/fond.jpg'); no-repeat top center;
-  background-size: cover;
-  justify-content: space-between;
-  min-height: 90vh;
-  z-index: 1 ;
-  justify-content: space-between;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-
 
 
 #titre{
@@ -177,18 +165,21 @@ a.next{
 }
 
 img.next{
-  height: 250px;
-  margin-top: 20px;
-  margin-bottom: 140px;
-  margin-left: 550px;
-  margin-right: auto;
+  height: 300px;
+  margin-top: 70px;
+  margin-left: 140px;
+  justify-content: center;
 }
 
 img.next:hover {
   opacity: 0.7 ;
 }
 
-
+.replay{
+  height: 90px;
+  justify-content: center;
+  display: flex;
+}
 
 
 ul{
@@ -201,10 +192,8 @@ li{
   flex-basis: 320px;
   display: flex;
   flex-direction: column;
-  margin:1vw;
+
 }
-
-
 
 
 li.presentation{
@@ -213,13 +202,14 @@ li.presentation{
 }
 
 .img_presentation {
-  width: 10em;
+  width: 13em;
   flex-basis: 20px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .blason{
-  width: 20px;
+  width: 190px;
+  height: 198px;
   justify-content: center;
   flex-basis: 50px;
   display: flex;
@@ -229,7 +219,25 @@ p.fiche_personnage{
 
 }
 
+.noms1{
+  width: 90px;
+  margin-top: 350px;
+  margin-left: 20px;
+}
 
+
+.noms2{
+  width: 90px;
+  margin-top: 350px;
+  margin-left: 20px;
+}
+
+
+.noms3{
+  width: 90px;
+  margin-top: 350px;
+  margin-left: 20px;
+}
 
 img.etat{
   width: 100px ;
@@ -261,12 +269,6 @@ h2{
 
 
 
-.page_entière{
-  justify-content: space-between;
-  width: 100%
-  height: 100%
-  z-index: 1 ;
-}
 
 .rive_gauche{
 display: flex;
@@ -360,22 +362,45 @@ align-items: flex-end;
 }
 
 .choix {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-margin-top: 100px;
-max-width: 40vw;
+    flex-basis: 30vw;
+    display: flex;
+    max-width: 40vw;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
 }
 
 .proposition {
-flex-basis: 220px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
 }
+
+.proposition img {
+  width: 100%;
+  transition: transform 2s ease;
+}
+
+.proposition:hover img  {
+  transform: scale(1.2);
+}
+
+.proposition:hover .description {
+  color : #fff;
+}
+
+.proposition:hover .description {
+  transition: all 2s ease;
+  color : #6a2e2d;
+  position: relative;
+  z-index: 10;
+}
+
 
 img.bulles{
   max-width: 200px ;
+
 
 }
 
@@ -390,6 +415,7 @@ img.bulles{
 
 
 article{
+
   display: flex;
   justify-content: center;
   align-items: center;
