@@ -1,5 +1,4 @@
 header{
-  height: 85px;
   display:flex;
   justify-content:space-between;
   margin-top:3vh;
@@ -8,14 +7,12 @@ header{
 }
 
 img.button{
-  height: 60px;
-  width: 60px;
+  max-height:6vh;
+
 }
 
 img.logo{
-  height: 90px;
-  width: 80px;
-  margin-bottom: 10px;
+    max-height:8vh;
 }
 
 div.buttons{
@@ -23,7 +20,7 @@ div.buttons{
 }
 
 .button{
-  width:5vw;
+
 align= right ;
 }
 
@@ -34,13 +31,14 @@ align= right ;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
+
 }
 
 .background {
   background: url('images/fond_nuages.jpg'); no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
+
 }
 
 #background_parametre {
@@ -166,7 +164,7 @@ a.next{
 
 img.next{
   height: 300px;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-left: 140px;
   justify-content: center;
 }
@@ -179,6 +177,8 @@ img.next:hover {
   height: 90px;
   justify-content: center;
   display: flex;
+  margin-left: 42em;
+  margin-top: -8em;
 }
 
 
@@ -207,13 +207,7 @@ li.presentation{
   padding: 2px;
 }
 
-.blason{
-  width: 190px;
-  height: 198px;
-  justify-content: center;
-  flex-basis: 50px;
-  display: flex;
-}
+
 
 p.fiche_personnage{
 
@@ -246,7 +240,7 @@ img.etat{
 
 
 img.img_defaite{
-width: 35em;
+width: 33em;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -254,7 +248,7 @@ margin-right: auto;
 
 
 img.img_victoire{
-width: 35em;
+width: 33em;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -268,14 +262,10 @@ h2{
 }
 
 
-
-
 .rive_gauche{
 display: flex;
 align-items: flex-end;
   }
-
-
 
 #alessandra_position1{
   position: absolute;
@@ -361,20 +351,36 @@ align-items: flex-end;
   top: 480px;
 }
 
+.blason{
+  width: 190px;
+  height: 198px;
+  justify-content: center;
+  flex-basis: 50px;
+  display: flex;
+}
+
 .choix {
     flex-basis: 30vw;
     display: flex;
     max-width: 40vw;
     flex-wrap: wrap;
     margin-top: 100px;
+    justify-content: space-between;
+
+}
+.planete_etape{
+  max-width: 50%;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .proposition {
-  flex-basis: 200px;
+  flex-basis: 150px;
   flex-direction: column;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 3vh;
+  margin-right: 3vh;
 }
 
 .proposition img {
@@ -399,25 +405,15 @@ align-items: flex-end;
 
 
 img.bulles{
-  max-width: 200px ;
-
-
+  max-width: 150px ;
 }
-
-
-
-
-
-
-
-
 
 
 
 article{
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -437,7 +433,7 @@ position: absolute;
 }
 
 img.reglement{
-  width: 30em;
+  width: 28em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -447,9 +443,20 @@ img.reglement{
   justify-content: center;
 }
 
+img.boat1{
+  max-width: 100%;
+  margin-left: 10vh;
+  margin-top: 25vh;
+}
+
+img.boat2{
+  max-width: 100%;
+  margin-left: 10vh;
+  margin-top: 40vh;
+}
 
 
 footer
 {text-align: left;
-
+margin: 1vh;
 }
