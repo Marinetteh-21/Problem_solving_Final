@@ -38,6 +38,7 @@ align= right ;
   background: url('images/fond_nuages.jpg'); no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
 
 }
 
@@ -195,42 +196,55 @@ li{
 
 }
 
-
-li.presentation{
+#img_presentation_eli{
+  width: 10em;
   flex-basis: 20px;
-
+  padding: 2px;
+  margin-top: 20px;
 }
 
-.img_presentation {
-  width: 13em;
+#img_presentation_gaspard{
+  width: 6em;
+  flex-basis: 20px;
+  padding: 2px;
+  margin-top: 40px;
+}
+
+#img_presentation_mj{
+  width: 8em;
+  flex-basis: 20px;
+  padding: 2px;
+}
+
+#img_presentation_leandre{
+  width: 6em;
+  flex-basis: 20px;
+  padding: 2px;
+    margin-top: 110px;
+}
+
+#img_presentation_alessandra{
+  width: 7em;
+  flex-basis: 20px;
+  padding: 2px;
+  margin-top: 40px;
+}
+
+#img_presentation_lucius{
+  width: 7em;
   flex-basis: 20px;
   padding: 2px;
 }
 
 
-
 p.fiche_personnage{
+  margin-top: 400px;
+  flex-basis: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1vh;
 
-}
-
-.noms1{
-  width: 90px;
-  margin-top: 350px;
-  margin-left: 20px;
-}
-
-
-.noms2{
-  width: 90px;
-  margin-top: 350px;
-  margin-left: 20px;
-}
-
-
-.noms3{
-  width: 90px;
-  margin-top: 350px;
-  margin-left: 20px;
 }
 
 img.etat{
@@ -248,12 +262,26 @@ margin-right: auto;
 
 
 img.img_victoire{
-width: 33em;
+width: 28em;
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
 
+img.video_resolution{
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bouton_accueil{
+  max-width: 100em ;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
 
 h2{
   position: absolute;
@@ -446,17 +474,11 @@ img.reglement{
 img.boat1{
   max-width: 100%;
   margin-left: 10vh;
-  margin-top: 25vh;
+  margin-top: 30vh;
 }
 
 img.boat2{
   max-width: 100%;
   margin-left: 10vh;
   margin-top: 40vh;
-}
-
-
-footer
-{text-align: left;
-margin: 1vh;
 }
