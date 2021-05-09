@@ -64,9 +64,10 @@ h1{
   font-family: niveau-grotesk, sans-serif;
   color: white ;
   text-align: center;
-  margin-right: 40px;
+  margin-right: -20px;
   margin-left: 910px;
-  margin-top: -90px;
+  margin-top: -120px;
+    font-size: 25px;
 }
 
 .texte2_para
@@ -74,13 +75,34 @@ h1{
   font-family: niveau-grotesk, sans-serif;
   color: white ;
   text-align: center;
-margin-bottom: 300px;
+  margin-top: -120px;
+  margin-right: 250px;
+  font-size: 25px;
 
 }
 
-footer{
+.texte3_para
+{
   font-family: niveau-grotesk, sans-serif;
+
+  color: white ;
+  text-align: center;
+  margin-top: 200px;
+margin-left: 800px;
+  font-size: 25px;
+
+}
+
+.texte4_para
+{
+  font-family: niveau-grotesk, sans-serif;
+  color: white ;
+  text-align: center;
+  font-size: 25px;
+  margin-top: -200px;
+  margin-bottom: 180px;
   font-style: normal;
   font-size: 10px;
   color: #6a2e2d ;
+
 }

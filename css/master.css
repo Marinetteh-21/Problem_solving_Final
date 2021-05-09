@@ -123,12 +123,37 @@ align= right ;
 
 
 #alessandra_para{
-  width: 150px;
+  width: 180px;
   margin-left: 750px;
-  margin-top:2.5em;
+  margin-top:80px;
+
+}
+
+#elisabeth_para{
+  width: 180px;
+  margin-top:20em;
+  margin-left: 100px;
+
+}
+
+#m-j_para{
+  width: 180px;
+  margin-left: -200px;
+  margin-top:800px;
+  margin-bottom: -320px;
+
+}
+
+
+#baleine{
+  width: 700px;
+  margin-left: 460px;
+  margin-top:150px;
+  margin-bottom: auto;
 
 
 }
+
 
 #ref1
 {
@@ -146,18 +171,18 @@ align= right ;
 #ref4
 {
 
-    width: 30em;
-    height: 40em;
-    margin-left: 800px;
-    margin-top: 200px;
+    width: 40em;
+    height: 60em;
+    margin-left: 1000px;
+    margin-top: auto;
 }
 
 #ref6
 {
 
-    width: 30em;
-    height: 40em;
-    margin-top: 30px;
+    width: 45em;
+    height: 60em;
+    margin-top: auto;
 }
 
 .rotation15 {
@@ -183,6 +208,75 @@ align= right ;
      -o-transform: rotate(-20deg);
      transform: rotate(-20deg);
    }
+
+.croquis_perso
+{
+
+display: flex;
+  align-items: center;
+  margin-left: -100px;
+
+}
+
+.croquis_perso2
+{
+
+display: flex;
+  align-items: center;
+  margin-left: -100px;
+
+}
+
+#croquis_alessandra
+{
+width: 600px;
+  align-items: flex-end;
+  justify-content:center;
+
+  }
+
+  #croquis_elisabeth
+  {
+  width: 550px;
+
+    }
+
+    #croquis_marie_juliette
+    {
+    width: 600px;
+      }
+      #croquis_leandre
+      {
+      width: 600px;
+        }
+
+        #croquis_lucius
+        {
+        width: 600px;
+          }
+
+          #croquis_gaspard
+          {
+          width: 600px;
+            }
+
+
+#alessandra_c{
+  width: 180px;
+  margin-left: 150px;
+  margin-top:200px;
+  margin-bottom: 100px;
+
+}
+
+#croquis_fond{
+
+width: 1200px;
+margin-top: 200px;
+margin-left: 200px;
+
+
+}
 
 
 img.commencer{
