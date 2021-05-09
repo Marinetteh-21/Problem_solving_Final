@@ -101,8 +101,10 @@ margin-left: 800px;
   font-size: 25px;
   margin-top: -200px;
   margin-bottom: 180px;
-  font-style: normal;
-  font-size: 10px;
-  color: #6a2e2d ;
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 25px;
+  color: white ;
 
 }
