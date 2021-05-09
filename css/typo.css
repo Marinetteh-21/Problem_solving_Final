@@ -84,6 +84,7 @@ h1{
 .texte3_para
 {
   font-family: niveau-grotesk, sans-serif;
+
   color: white ;
   text-align: center;
   margin-top: 200px;
@@ -100,5 +101,8 @@ margin-left: 800px;
   font-size: 25px;
   margin-top: -200px;
   margin-bottom: 180px;
+  font-style: normal;
+  font-size: 10px;
+  color: #6a2e2d ;
 
 }
