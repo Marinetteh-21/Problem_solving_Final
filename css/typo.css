@@ -59,6 +59,25 @@ h1{
   color: white ;
 }
 
+.texte1_para
+{
+  font-family: niveau-grotesk, sans-serif;
+  color: white ;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 910px;
+  margin-top: -90px;
+}
+
+.texte2_para
+{
+  font-family: niveau-grotesk, sans-serif;
+  color: white ;
+  text-align: center;
+margin-bottom: 300px;
+
+}
+
 footer{
   font-family: niveau-grotesk, sans-serif;
   font-style: normal;
